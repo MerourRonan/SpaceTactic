@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6B168B3D-B0B4-3130-FEA5-C579C15C16B8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_2;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ImportedAsset\Ship\ship1\omega_fighter_01\script\MouseLook.cs" />
+     <Compile Include="Assets\Resources\Script\Buff\Buff.cs" />
+     <Compile Include="Assets\Resources\Script\Buff\BuffEnergyBoost.cs" />
+     <Compile Include="Assets\Resources\Script\Buff\BuffShield.cs" />
+     <Compile Include="Assets\Resources\Script\Camera\CameraManager.cs" />
+     <Compile Include="Assets\Resources\Script\Camera\KillCamController.cs" />
+     <Compile Include="Assets\Resources\Script\Camera\MoveCamController.cs" />
+     <Compile Include="Assets\Resources\Script\Camera\SelectCamController.cs" />
+     <Compile Include="Assets\Resources\Script\Clusters\Cluster.cs" />
+     <Compile Include="Assets\Resources\Script\Controller\BuffController.cs" />
+     <Compile Include="Assets\Resources\Script\Controller\HUDController.cs" />
+     <Compile Include="Assets\Resources\Script\Controller\MoveController.cs" />
+     <Compile Include="Assets\Resources\Script\Controller\PassiveController.cs" />
+     <Compile Include="Assets\Resources\Script\Controller\WeaponController.cs" />
+     <Compile Include="Assets\Resources\Script\Enemy\EnemyFactionOld.cs" />
+     <Compile Include="Assets\Resources\Script\Enemy\EnemyShip.cs" />
+     <Compile Include="Assets\Resources\Script\Enemy\Faction.cs" />
+     <Compile Include="Assets\Resources\Script\Enemy\FactionTest.cs" />
+     <Compile Include="Assets\Resources\Script\Enemy\FactionTestOld.cs" />
+     <Compile Include="Assets\Resources\Script\Fleet\Fleet.cs" />
+     <Compile Include="Assets\Resources\Script\Fleet\FleetManager.cs" />
+     <Compile Include="Assets\Resources\Script\Fleet\ShipFitting.cs" />
+     <Compile Include="Assets\Resources\Script\Fleet\Squadron.cs" />
+     <Compile Include="Assets\Resources\Script\Grid\Grid2.cs" />
+     <Compile Include="Assets\Resources\Script\Grid\GridBuilder.cs" />
+     <Compile Include="Assets\Resources\Script\Grid\GridDisplayer.cs" />
+     <Compile Include="Assets\Resources\Script\Grid\GridPathFinder.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\ActionPanel.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\AttackPanel.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\AttackPanel2.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\DamagePanel.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\HUD.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\InfoPanel.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\Marker.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\ShipDisplayer.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\SlotButton.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\TargetPanel.cs" />
+     <Compile Include="Assets\Resources\Script\HUD\WeaponAttackDisplayer.cs" />
+     <Compile Include="Assets\Resources\Script\IA\IA_Action.cs" />
+     <Compile Include="Assets\Resources\Script\IA\IA_Proto.cs" />
+     <Compile Include="Assets\Resources\Script\IA\WeaponAction.cs" />
+     <Compile Include="Assets\Resources\Script\LevelManager\GameManager.cs" />
+     <Compile Include="Assets\Resources\Script\LevelManager\ThreatZone.cs" />
+     <Compile Include="Assets\Resources\Script\LevelManager\Tile.cs" />
+     <Compile Include="Assets\Resources\Script\Managers\ActionManager.cs" />
+     <Compile Include="Assets\Resources\Script\Managers\AnimationManager.cs" />
+     <Compile Include="Assets\Resources\Script\Managers\AttackManager.cs" />
+     <Compile Include="Assets\Resources\Script\Managers\FactionManager.cs" />
+     <Compile Include="Assets\Resources\Script\Managers\HUDMarkerManager.cs" />
+     <Compile Include="Assets\Resources\Script\Managers\MoveManager.cs" />
+     <Compile Include="Assets\Resources\Script\Managers\ZoneManager.cs" />
+     <Compile Include="Assets\Resources\Script\Misc\AttackPanelInfo.cs" />
+     <Compile Include="Assets\Resources\Script\Misc\BattleInfo.cs" />
+     <Compile Include="Assets\Resources\Script\Misc\PathFinding.cs" />
+     <Compile Include="Assets\Resources\Script\Misc\Utilities.cs" />
+     <Compile Include="Assets\Resources\Script\Mission\MissionInfo2.cs" />
+     <Compile Include="Assets\Resources\Script\Passives\Passives.cs" />
+     <Compile Include="Assets\Resources\Script\Passives\ReactiveArmor.cs" />
+     <Compile Include="Assets\Resources\Script\Player\PlayerControl.cs" />
+     <Compile Include="Assets\Resources\Script\Player\PlayerInfo.cs" />
+     <Compile Include="Assets\Resources\Script\Projectiles\LaserTest.cs" />
+     <Compile Include="Assets\Resources\Script\Projectiles\Projectile.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Decor\Asteroid.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Decor\DecorObject.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\Ship\FighterTest.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\Ship\FighterTest2.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\Ship\FregateTest.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\Ship\LargeShip.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\Ship\Ship.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\Ship\SmallShip.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\ShipStats\EnemyFighterTestStats.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\ShipStats\EnemyFregateTestStats.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\ShipStats\FighterTestStats.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\ShipStats\FighterTestStats2.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\ShipStats\FregateTestStats.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\Ship\ShipStats\ShipStats.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\ShipMarker.cs" />
+     <Compile Include="Assets\Resources\Script\SpaceObject\SpaceObject.cs" />
+     <Compile Include="Assets\Resources\Script\System\ControlTower.cs" />
+     <Compile Include="Assets\Resources\Script\System\DockingBay.cs" />
+     <Compile Include="Assets\Resources\Script\System\Engines.cs" />
+     <Compile Include="Assets\Resources\Script\System\PowerCore.cs" />
+     <Compile Include="Assets\Resources\Script\System\ShipSystem.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\AmmoWeaponOld.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\CoolDownWeaponOld.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\Instance\LargeLaserTest.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\Instance\Overcharge.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\Instance\Shield.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\Instance\SmallLaserTest.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\Instance\SmallPlasmaTest.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\LargeWeapon.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\Turret.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\Weapon.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\WeaponAnimation\ShieldAnimation.cs" />
+     <Compile Include="Assets\Resources\Script\Weapon\WeaponAnimation\WeaponAnimation.cs" />
+     <Compile Include="Assets\Resources\Script\test.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
